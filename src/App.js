@@ -3,7 +3,7 @@ import {
     Route,
     Routes
   } from "react-router-dom";
-// import Home from "./Home";
+import MainUI from "./pages/MainUI";
 import Chatbot from "./Chatbot";
 
   
@@ -17,7 +17,7 @@ import Chatbot from "./Chatbot";
       <Router>
         <Routes>
             <Route path='/' element={<Chatbot/>} />
-            {/* <Route path='/testing' element={<Home/>} /> */}
+            <Route path='/mainui' element={<MainUI/>} />
         </Routes>
       </Router>
       </>
